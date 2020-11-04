@@ -10,7 +10,10 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.Environment;
-
+/*
+* Properties priority(how properties are overridden)
+* https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config
+* */
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 /*@PropertySources({
         @PropertySource("classpath:datasource.properties"),
