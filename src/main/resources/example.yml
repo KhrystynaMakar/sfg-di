@@ -1,0 +1,33 @@
+# this is a comment
+
+name: John
+
+names: # inline comment
+  - Raul
+  - Paul
+  - Ricardo
+
+pound_sign: "#"
+
+book:
+  author: Eric Evans
+  publisher: random house
+
+truth: yes #boolean
+another_truth: true
+more_true: True
+false: no # NO, False, false
+
+str_val: "This is it's quote"
+
+colon_string: "Some string:sdjksdjs"
+
+string_with_lines: |
+  dajd akjda kjadsj da
+  adkjda adkjada jd
+  ahkjahkjdl
+
+string_in_one_line: <
+  sakdjha akjdhaskd a
+  adksjh aaksdjhaskdjha
+  dakjdhaksdjh
