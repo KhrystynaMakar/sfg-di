@@ -4,8 +4,11 @@ import guru.springframework.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+//@ComponentScan(basePackages = {"guru"})
+//@ComponentScan(basePackages = {"guru.services"})
 public class SfgDiApplication {
 
 	public static void main(String[] args) {
